@@ -1,0 +1,47 @@
+name: dogfinder
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.1
+  image_picker: ^1.1.2
+  dotted_border: ^2.1.0
+  camera: ^0.11.0+1
+  shared_preferences: ^2.2.3
+  http: ^1.2.2
+  geolocator: ^12.0.0
+  url_launcher: ^6.3.0
+  permission_handler: ^11.3.1
+  image: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  
+  uses-material-design: true
+  assets:
+    - assets/images/dog1.png
+    - assets/images/logo.png
+    - assets/images/cat1.png
+    - assets/images/cat2.png
+    - assets/images/dog3.png
+    - assets/images/dog2.png
+    - assets/images/signin.png
+    - assets/images/petinfor.png
+    - assets/images/video.mp4
+    - assets/images/1.png
+    - assets/images/2.png
+    - assets/images/3.png
+  fonts:
+    - family: Mulish
+
+  
